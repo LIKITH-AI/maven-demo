@@ -14,7 +14,7 @@ class GradeCalculatorTest {
  }
  @Test
  void testPass() {
- assertFalse(GradeCalculator.isPass(75.0));
+ assertTrue(GradeCalculator.isPass(75.0));
  }
  @Test
  void testFail() {
